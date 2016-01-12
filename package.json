@@ -1,0 +1,17 @@
+{
+  "name": "net-stat",
+  "version": "1.0.0",
+  "description": "Parse network interface stats from /proc/net/dev",
+  "main": "index.js",
+  "dependencies": {
+    "line-by-line": "*",
+    "lodash": "*",
+    "moment": "*",
+    "q": "*"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Joel Edwards <joeledwards@gmail.com>",
+  "license": "MIT"
+}
