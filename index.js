@@ -19,8 +19,6 @@ function readStats() {
     _(lines)
     .filter((line) => line.indexOf(':') >= 0)
     .each((line) => {
-      console.log(`line: ${line}`);
-
       var parts = _(line.split(/\s+/))
           .map((part) => part.trim())
           .filter((part) => part !== '')
